@@ -1,27 +1,12 @@
-# Ng6Tut
+# Ng6Tut - by Zane Ives
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
+This was made with a tutorial from [DesignCourse yt](https://youtu.be/z4JUm0Bq9AM)
 
-## Development server
+- I took rough notes, so as to try and do a lot of the work from memory.
+- I struggled quite a bit with the users$ object. For some reason, it didn't want to work with ngFor. Once I changed it to "any" type (and fixed my div tags), it managed to work
+- I copy pasted the CSS (and realized my div tags were in the wrong place)
+- Also the Navigation end didn't work out the box. Had to modify it to `router.events.subscribe(() => this.currentURL=this.router.url);` to get it to work.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+All in all, I think I learnt quite a bit with regards to observables and routing, as well as a bit from ActivatedRoute and Navigation end.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+😁
