@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "ng6tut-zives": {
+      "hosting": {
+        "ng6-tut": [
+          "ng6tut-zives"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "ng6tut-zives"
+  }
+}

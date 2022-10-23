@@ -102,6 +102,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "ng6-tut:build:production",
+            "firebaseProject": "ng6tut-zives",
+            "firebaseHostingSite": "ng6tut-zives"
+          }
         }
       }
     }
